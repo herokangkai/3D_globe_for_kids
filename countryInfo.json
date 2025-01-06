@@ -1,0 +1,734 @@
+{
+  "CHN": {
+    "name": "中国",
+    "flag": {
+      "name": "五星红旗",
+      "image": "images/flags/cn.png",
+      "description": "中国国旗，红底上有一颗大五角星和四颗小五角星"
+    },
+    "capital": "北京",
+    "population": "14亿",
+    "area": "960万平方公里",
+    "famousAnimal": {
+      "name": "大熊猫",
+      "image": "images/animals/panda.jpg",
+      "description": "大熊猫是中国的国宝，世界珍稀动物"
+    },
+    "currency": {
+      "name": "人民币",
+      "code": "CNY",
+      "symbol": "¥",
+      "image": "images/currency/cny.jpg",
+      "description": "人民币是中华人民共和国的法定货币"
+    }
+  },
+  "USA": {
+    "name": "美国",
+    "flag": {
+      "name": "星条旗",
+      "image": "images/flags/us.png",
+      "description": "美国国旗，红白条纹和蓝底白星"
+    },
+    "capital": "华盛顿特区",
+    "population": "3.31亿",
+    "area": "937万平方公里",
+    "famousAnimal": {
+      "name": "白头鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/About_to_Launch_%2826075320352%29.jpg/1280px-About_to_Launch_%2826075320352%29.jpg",
+      "description": "白头鹰是美国的国鸟，象征自由和力量"
+    },
+    "currency": {
+      "name": "美元",
+      "code": "USD",
+      "symbol": "$",
+      "image": "images/currency/usd.jpg",
+      "description": "美元是美国的法定货币，也是世界主要储备货币"
+    }
+  },
+  "RUS": {
+    "name": "俄罗斯",
+    "flag": {
+      "name": "俄罗斯国旗",
+      "image": "https://flagcdn.com/w640/ru.png",
+      "description": "俄罗斯国旗，白蓝红三色横条"
+    },
+    "capital": "莫斯科",
+    "population": "1.44亿",
+    "area": "1710万平方公里",
+    "famousAnimal": {
+      "name": "棕熊",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Brown_bear_%28Ursus_arctos%29_in_Katmai_National_Park.jpg/1280px-Brown_bear_%28Ursus_arctos%29_in_Katmai_National_Park.jpg",
+      "description": "棕熊是俄罗斯的标志性动物，象征着力量和勇气"
+    },
+    "currency": {
+      "name": "俄罗斯卢布",
+      "code": "RUB",
+      "symbol": "₽",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/5000_rubles_2010_front.jpg/1280px-5000_rubles_2010_front.jpg",
+      "description": "俄罗斯卢布是俄罗斯的法定货币"
+    }
+  },
+  "GBR": {
+    "name": "英国",
+    "flag": {
+      "name": "米字旗",
+      "image": "https://flagcdn.com/w640/gb.png",
+      "description": "英国国旗，蓝底上有红白十字"
+    },
+    "capital": "伦敦",
+    "population": "6700万",
+    "area": "24.4万平方公里",
+    "famousAnimal": {
+      "name": "雄狮",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1280px-Lion_waiting_in_Namibia.jpg",
+      "description": "雄狮是英国的国徽动物，象征王权和勇气"
+    },
+    "currency": {
+      "name": "英镑",
+      "code": "GBP",
+      "symbol": "£",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bank_of_England_%C2%A350_note_2021_specimen.png/1280px-Bank_of_England_%C2%A350_note_2021_specimen.png",
+      "description": "英镑是英国的法定货币"
+    }
+  },
+  "FRA": {
+    "name": "法国",
+    "flag": {
+      "name": "三色旗",
+      "image": "https://flagcdn.com/w640/fr.png",
+      "description": "法国国旗，蓝白红三色竖条"
+    },
+    "capital": "巴黎",
+    "population": "6700万",
+    "area": "54.7万平方公里",
+    "famousAnimal": {
+      "name": "高卢雄鸡",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gallic_rooster_-_Reddish_Junglefowl.jpg/1280px-Gallic_rooster_-_Reddish_Junglefowl.jpg",
+      "description": "高卢雄鸡是法国的非官方国鸟，象征着骄傲和勇气"
+    },
+    "currency": {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_banknotes%2C_Europa_series.png/1280px-Euro_banknotes%2C_Europa_series.png",
+      "description": "欧元是法国和欧盟多数成员国的官方货币"
+    }
+  },
+  "DEU": {
+    "name": "德国",
+    "flag": {
+      "name": "德国国旗",
+      "image": "https://flagcdn.com/w640/de.png",
+      "description": "德国国旗，黑红金三色横条"
+    },
+    "capital": "柏林",
+    "population": "8300万",
+    "area": "35.7万平方公里",
+    "famousAnimal": {
+      "name": "黑鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Bundesadler_Bonn_B1.jpg/1280px-Bundesadler_Bonn_B1.jpg",
+      "description": "黑鹰是德国的国徽动物，象征力量和统一"
+    },
+    "currency": {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_banknotes%2C_Europa_series.png/1280px-Euro_banknotes%2C_Europa_series.png",
+      "description": "欧元是德国和欧盟多数成员国的官方货币"
+    }
+  },
+  "JPN": {
+    "name": "日本",
+    "flag": {
+      "name": "日章旗",
+      "image": "https://flagcdn.com/w640/jp.png",
+      "description": "日本国旗，白底红日"
+    },
+    "capital": "东京",
+    "population": "1.26亿",
+    "area": "37.8万平方公里",
+    "famousAnimal": {
+      "name": "日本猕猴",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Japanese_Macaque_in_Jigokudani_Hotspring.jpg/1280px-Japanese_Macaque_in_Jigokudani_Hotspring.jpg",
+      "description": "日本猕猴是日本特有物种，也被称为雪猴"
+    },
+    "currency": {
+      "name": "日元",
+      "code": "JPY",
+      "symbol": "¥",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/10000_Yen_Note_-_Front.jpg/1280px-10000_Yen_Note_-_Front.jpg",
+      "description": "日元是日本的法定货币"
+    }
+  },
+  "IND": {
+    "name": "印度",
+    "flag": {
+      "name": "三色旗",
+      "image": "https://flagcdn.com/w640/in.png",
+      "description": "印度国旗，橙白绿三色横条，中央有蓝色法轮"
+    },
+    "capital": "新德里",
+    "population": "13.8亿",
+    "area": "297万平方公里",
+    "famousAnimal": {
+      "name": "孟加拉虎",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1280px-Walking_tiger_female.jpg",
+      "description": "孟加拉虎是印度的国兽，象征着力量和威严"
+    },
+    "currency": {
+      "name": "��度卢比",
+      "code": "INR",
+      "symbol": "₹",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Indian_Currency.jpg/1280px-Indian_Currency.jpg",
+      "description": "印度卢比是印度的法定货币"
+    }
+  },
+  "BRA": {
+    "name": "巴西",
+    "flag": {
+      "name": "巴西国旗",
+      "image": "https://flagcdn.com/w640/br.png",
+      "description": "巴西国旗，绿底黄菱形，中央有蓝色圆球和星星"
+    },
+    "capital": "巴西利亚",
+    "population": "2.12亿",
+    "area": "851万平方公里",
+    "famousAnimal": {
+      "name": "金刚鹦鹉",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Blue-and-yellow-macaw.jpg/1280px-Blue-and-yellow-macaw.jpg",
+      "description": "金刚鹦鹉是巴西的国鸟，以其鲜艳的羽毛闻名"
+    },
+    "currency": {
+      "name": "巴西雷亚尔",
+      "code": "BRL",
+      "symbol": "R$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/200_Brazil_real_banknote_2020_series_A.jpg/1280px-200_Brazil_real_banknote_2020_series_A.jpg",
+      "description": "巴西雷亚尔是巴西的法定货币"
+    }
+  },
+  "AUS": {
+    "name": "澳大利亚",
+    "flag": {
+      "name": "澳大利亚国旗",
+      "image": "https://flagcdn.com/w640/au.png",
+      "description": "澳大利亚国旗，左上角是英国国旗，右侧的南十字星座代表其地理位置"
+    },
+    "capital": "堪培拉",
+    "population": "2600万",
+    "area": "769.2万平方公里",
+    "famousAnimal": {
+      "name": "袋鼠",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kangaroo_on_an_open_field.jpg/1280px-Kangaroo_on_an_open_field.jpg",
+      "description": "袋鼠是澳大利亚最具代表性的动物，出现在国徽上"
+    },
+    "currency": {
+      "name": "澳大利亚元",
+      "code": "AUD",
+      "symbol": "A$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Australian_100_dollar_note_%282021%29.jpg/1280px-Australian_100_dollar_note_%282021%29.jpg",
+      "description": "澳大利亚元是澳大利亚的法定货币"
+    }
+  },
+  "CAN": {
+    "name": "加拿大",
+    "flag": {
+      "name": "枫叶旗",
+      "image": "https://flagcdn.com/w640/ca.png",
+      "description": "加拿大国旗，红白两色，中央有红色枫叶"
+    },
+    "capital": "渥太华",
+    "population": "3800万",
+    "area": "998万平方公里",
+    "famousAnimal": {
+      "name": "海狸",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/1280px-American_Beaver.jpg",
+      "description": "海狸是加拿大的国兽，象征着勤劳和智慧"
+    },
+    "currency": {
+      "name": "加拿大元",
+      "code": "CAD",
+      "symbol": "$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Canadian_Dollar_-_front.png/1280px-Canadian_Dollar_-_front.png",
+      "description": "加拿大元是加拿大的法定货币"
+    }
+  },
+  "CHL": {
+    "name": "智利",
+    "flag": "https://flagcdn.com/w640/cl.png",
+    "capital": "圣地亚哥",
+    "population": "1800万",
+    "area": "75.6万平方公里",
+    "famousAnimal": {
+      "name": "安第斯秃鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Andean_Condor_2.jpg/1200px-Andean_Condor_2.jpg",
+      "description": "安第斯秃鹰是智利的国鸟，也是世界上最大的飞鸟之一"
+    },
+    "currency": {
+      "name": "智利比索",
+      "code": "CLP",
+      "symbol": "$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Chilean_20%2C000_pesos_note_%282014%29.jpg/1280px-Chilean_20%2C000_pesos_note_%282014%29.jpg",
+      "description": "智利比索是智利的法定货币"
+    }
+  },
+  "KOR": {
+    "name": "韩国",
+    "flag": {
+      "name": "太极旗",
+      "image": "https://flagcdn.com/w640/kr.png",
+      "description": "韩国国旗，中央的太极图案代表阴阳调和，四周的卦象代表天、地、火、水"
+    },
+    "capital": "首尔",
+    "population": "5.15亿",
+    "area": "10万平方公里",
+    "famousAnimal": {
+      "name": "虎",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1280px-Walking_tiger_female.jpg",
+      "description": "老虎在韩国民间传说中具有重要地位，象征着勇气和力量"
+    },
+    "currency": {
+      "name": "韩元",
+      "code": "KRW",
+      "symbol": "₩",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/South_Korean_50%2C000_won_note_%282017%29.jpg/1280px-South_Korean_50%2C000_won_note_%282017%29.jpg",
+      "description": "韩元是韩国的法定货币"
+    }
+  },
+  "ESP": {
+    "name": "西班牙",
+    "flag": {
+      "name": "西班牙国旗",
+      "image": "https://flagcdn.com/w640/es.png",
+      "description": "西班牙国旗，红黄红三色竖条，中间带有国徽"
+    },
+    "capital": "马德里",
+    "population": "4600万",
+    "area": "50.6万平方公里",
+    "famousAnimal": {
+      "name": "公牛",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bullfighting_in_Madrid.jpg/1280px-Bullfighting_in_Madrid.jpg",
+      "description": "公牛是西班牙的非官方国兽，象征着力量和勇气"
+    },
+    "currency": {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_banknotes%2C_Europa_series.png/1280px-Euro_banknotes%2C_Europa_series.png",
+      "description": "欧元是西班牙和欧盟多数成员国的官方货币"
+    }
+  },
+  "MEX": {
+    "name": "墨西哥",
+    "flag": {
+      "name": "墨西哥国旗",
+      "image": "https://flagcdn.com/w640/mx.png",
+      "description": "墨西哥国旗，绿白红三色，中央有一只展翅的金鹰"
+    },
+    "capital": "墨西哥城",
+    "population": "1.28亿",
+    "area": "196万平方公里",
+    "famousAnimal": {
+      "name": "金鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Golden_Eagle_in_flight.jpg/1280px-Golden_Eagle_in_flight.jpg",
+      "description": "金鹰是墨西哥的国鸟，出现在国旗和国徽上"
+    },
+    "currency": {
+      "name": "墨西哥比索",
+      "code": "MXN",
+      "symbol": "$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mexican_1000_pesos_note_%282020%29.jpg/1280px-Mexican_1000_pesos_note_%282020%29.jpg",
+      "description": "墨西哥比索是墨西哥的法定货币"
+    }
+  },
+  "IDN": {
+    "name": "印度尼西亚",
+    "flag": {
+      "name": "印度尼西亚国旗",
+      "image": "https://flagcdn.com/w640/id.png",
+      "description": "印度尼西亚国旗，红白两色横条，象征着勇气和纯洁"
+    },
+    "capital": "雅加达",
+    "population": "2.73亿",
+    "area": "190万平方公里",
+    "famousAnimal": {
+      "name": "科莫多龙",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Komodo_dragon.jpg/1280px-Komodo_dragon.jpg",
+      "description": "科莫多龙是印度尼西亚特有物种，是世界上最大的蜥蜴"
+    },
+    "currency": {
+      "name": "印度尼西亚卢比",
+      "code": "IDR",
+      "symbol": "Rp",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Indonesian_100%2C000_rupiah_note_%282017%29.jpg/1280px-Indonesian_100%2C000_rupiah_note_%282017%29.jpg",
+      "description": "印度尼西亚卢比是印度尼西亚的法定货币"
+    }
+  },
+  "ZAF": {
+    "name": "南非",
+    "flag": {
+      "name": "南非国旗",
+      "image": "https://flagcdn.com/w640/za.png",
+      "description": "南非国旗，包含六种颜��，象征着国家的多元文化"
+    },
+    "capital": "比勒陀利亚",
+    "population": "5800万",
+    "area": "122万平方公里",
+    "famousAnimal": {
+      "name": "跳羚",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Springbok.jpg/1280px-Springbok.jpg",
+      "description": "跳羚是南非的国兽，也是国家橄榄球队的象征"
+    },
+    "currency": {
+      "name": "南非兰特",
+      "code": "ZAR",
+      "symbol": "R",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/South_African_200_rand_note_%282015%29.jpg/1280px-South_African_200_rand_note_%282015%29.jpg",
+      "description": "南非兰特是南非的法定货币"
+    }
+  },
+  "TUR": {
+    "name": "土耳其",
+    "flag": {
+      "name": "土耳其国旗",
+      "image": "https://flagcdn.com/w640/tr.png",
+      "description": "土耳其国旗，红底上有一轮新月和五角星"
+    },
+    "capital": "安卡拉",
+    "population": "8400万",
+    "area": "78.4万平方公里",
+    "famousAnimal": {
+      "name": "灰狼",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/1280px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+      "description": "灰狼在土耳其文化中具有重要地位，象征着力量和独立"
+    },
+    "currency": {
+      "name": "土耳其里拉",
+      "code": "TRY",
+      "symbol": "₺",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Turkish_200_lira_note_%282009%29.jpg/1280px-Turkish_200_lira_note_%282009%29.jpg",
+      "description": "土耳其里拉是土耳其的法定货币"
+    }
+  },
+  "SAU": {
+    "name": "沙特阿拉伯",
+    "flag": {
+      "name": "沙特阿拉伯国旗",
+      "image": "https://flagcdn.com/w640/sa.png",
+      "description": "沙特阿拉伯国旗，绿底上有阿拉伯文字和一把剑"
+    },
+    "capital": "利雅得",
+    "population": "3400万",
+    "area": "214万平方公里",
+    "famousAnimal": {
+      "name": "阿拉伯羚羊",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Arabian_oryx.jpg/1280px-Arabian_oryx.jpg",
+      "description": "阿拉伯羚羊是沙特阿拉伯的国兽，象征着优雅和坚韧"
+    },
+    "currency": {
+      "name": "沙特里亚尔",
+      "code": "SAR",
+      "symbol": "﷼",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Saudi_100_riyal_note_%282015%29.jpg/1280px-Saudi_100_riyal_note_%282015%29.jpg",
+      "description": "沙特里亚尔是沙特阿拉伯的法定货币"
+    }
+  },
+  "IRN": {
+    "name": "伊朗",
+    "flag": {
+      "name": "伊朗国旗",
+      "image": "https://flagcdn.com/w640/ir.png",
+      "description": "伊朗国旗，绿白红三色，中央有特殊的伊斯兰图案"
+    },
+    "capital": "德黑兰",
+    "population": "8300万",
+    "area": "163万平方公里",
+    "famousAnimal": {
+      "name": "狮子",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1280px-Lion_waiting_in_Namibia.jpg",
+      "description": "波斯狮是伊朗的传统象征，代表着王权和力量"
+    },
+    "currency": {
+      "name": "伊朗里亚尔",
+      "code": "IRR",
+      "symbol": "﷼",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Iranian_100%2C000_rial_note_%282015%29.jpg/1280px-Iranian_100%2C000_rial_note_%282015%29.jpg",
+      "description": "伊朗里亚尔是伊朗的法定货币"
+    }
+  },
+  "ARG": {
+    "name": "阿根廷",
+    "flag": {
+      "name": "阿根廷国旗",
+      "image": "https://flagcdn.com/w640/ar.png",
+      "description": "阿根廷国旗，蓝白相间的三条横带，中央有一个太阳"
+    },
+    "capital": "布宜诺斯艾利斯",
+    "population": "4500万",
+    "area": "278万平方公里",
+    "famousAnimal": {
+      "name": "美洲豹",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1280px-Walking_tiger_female.jpg",
+      "description": "美洲豹是阿根廷的标志性动物，象征着力量和敏捷"
+    },
+    "currency": {
+      "name": "阿根廷比索",
+      "code": "ARS",
+      "symbol": "$",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Argentine_100_pesos_note_%282017%29.jpg/1280px-Argentine_100_pesos_note_%282017%29.jpg",
+      "description": "阿根廷比索是阿根廷的法定货币"
+    }
+  },
+  "POL": {
+    "name": "波兰",
+    "flag": {
+      "name": "波兰国旗",
+      "image": "https://flagcdn.com/w640/pl.png",
+      "description": "波兰国旗，白红两色横条，象征着纯洁和勇气"
+    },
+    "capital": "华沙",
+    "population": "3800万",
+    "area": "31.2万平方公里",
+    "famousAnimal": {
+      "name": "白头鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1280px-Lion_waiting_in_Namibia.jpg",
+      "description": "白头鹰是波兰的国徽��物，象征着力量和自由"
+    },
+    "currency": {
+      "name": "波兰兹罗提",
+      "code": "PLN",
+      "symbol": "zł",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Polish_100_z%C5%82otych_note_%282015%29.jpg/1280px-Polish_100_z%C5%82otych_note_%282015%29.jpg",
+      "description": "波兰兹罗提是波兰的法定货币"
+    }
+  },
+  "SWE": {
+    "name": "瑞典",
+    "flag": {
+      "name": "瑞典国旗",
+      "image": "https://flagcdn.com/w640/se.png",
+      "description": "瑞典国旗，蓝底上有一个黄色十字"
+    },
+    "capital": "斯德哥尔摩",
+    "population": "1000万",
+    "area": "45万平方公里",
+    "famousAnimal": {
+      "name": "驼鹿",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/1280px-Moose_superior.jpg",
+      "description": "驼鹿是瑞典的国兽，象征着力量和野性"
+    },
+    "currency": {
+      "name": "瑞典克朗",
+      "code": "SEK",
+      "symbol": "kr",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/100_Kr_Sweden_2015.jpg/1280px-100_Kr_Sweden_2015.jpg",
+      "description": "瑞典克朗是瑞典的法定货币"
+    }
+  },
+  "CHE": {
+    "name": "瑞��",
+    "flag": {
+      "name": "瑞士国旗",
+      "image": "https://flagcdn.com/w640/ch.png",
+      "description": "瑞士国旗，红底上有一个白色十字"
+    },
+    "capital": "伯尔尼",
+    "population": "850万",
+    "area": "4.1万平方公里",
+    "famousAnimal": {
+      "name": "圣伯纳犬",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Bernard_dog.jpg/1280px-Saint_Bernard_dog.jpg",
+      "description": "圣伯纳犬是瑞士的标志性动物，以其救援能力闻名"
+    },
+    "currency": {
+      "name": "瑞士法郎",
+      "code": "CHF",
+      "symbol": "Fr.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/CHF_100_9_front.jpg/1280px-CHF_100_9_front.jpg",
+      "description": "瑞士法郎是瑞士的法定货币"
+    }
+  },
+  "NLD": {
+    "name": "荷兰",
+    "flag": {
+      "name": "荷兰国旗",
+      "image": "https://flagcdn.com/w640/nl.png",
+      "description": "荷兰国旗，红白蓝三色横条"
+    },
+    "capital": "阿姆斯特丹",
+    "population": "1700万",
+    "area": "4.1万平方公里",
+    "famousAnimal": {
+      "name": "狮子",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1280px-Lion_waiting_in_Namibia.jpg",
+      "description": "狮子是荷兰的国徽动物，象征着力量和王权"
+    },
+    "currency": {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_banknotes%2C_Europa_series.png/1280px-Euro_banknotes%2C_Europa_series.png",
+      "description": "欧元是荷兰的法定货币"
+    }
+  },
+  "BEL": {
+    "name": "比利时",
+    "flag": {
+      "name": "比利时国旗",
+      "image": "https://flagcdn.com/w640/be.png",
+      "description": "比利时国旗，黑黄红三色竖条"
+    },
+    "capital": "布鲁塞尔",
+    "population": "1100万",
+    "area": "3.3万平方公里",
+    "famousAnimal": {
+      "name": "比利时蓝牛",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Belgian_Blue_Bull.jpg/1280px-Belgian_Blue_Bull.jpg",
+      "description": "比利时蓝牛是该国著名的畜牧品种"
+    },
+    "currency": {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Euro_banknotes%2C_Europa_series.png/1280px-Euro_banknotes%2C_Europa_series.png",
+      "description": "欧元是比利时的法定货币"
+    }
+  },
+  "NOR": {
+    "name": "挪威",
+    "flag": {
+      "name": "挪威国旗",
+      "image": "https://flagcdn.com/w640/no.png",
+      "description": "挪威国旗，红底上有蓝白十字"
+    },
+    "capital": "奥斯陆",
+    "population": "530万",
+    "area": "32.5万平方公里",
+    "famousAnimal": {
+      "name": "北极熊",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/1280px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+      "description": "北极熊是挪威斯瓦尔巴群岛的标志性动物"
+    },
+    "currency": {
+      "name": "挪威克朗",
+      "code": "NOK",
+      "symbol": "kr",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/200_NOK_obverse.jpg/1280px-200_NOK_obverse.jpg",
+      "description": "挪威克朗是挪威的法定货币"
+    }
+  },
+  "ISR": {
+    "name": "以色列",
+    "flag": {
+      "name": "以色列国旗",
+      "image": "https://flagcdn.com/w640/il.png",
+      "description": "以色列国旗，白底上有蓝色六角星和两条蓝色横条"
+    },
+    "capital": "耶路撒冷",
+    "population": "900万",
+    "area": "2.2万��方公里",
+    "famousAnimal": {
+      "name": "羚羊",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Gazella_gazella_-_01.jpg/1280px-Gazella_gazella_-_01.jpg",
+      "description": "羚羊在以色列文化中具有重要地位"
+    },
+    "currency": {
+      "name": "以色列新谢克尔",
+      "code": "ILS",
+      "symbol": "₪",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Israel_new_shekel_banknotes.jpg/1280px-Israel_new_shekel_banknotes.jpg",
+      "description": "以色列新谢克尔是以色列的法定货币"
+    }
+  },
+  "EGY": {
+    "name": "埃及",
+    "flag": {
+      "name": "埃及国旗",
+      "image": "https://flagcdn.com/w640/eg.png",
+      "description": "埃及国旗，红白黑三色横条，中央有金鹰"
+    },
+    "capital": "开罗",
+    "population": "1.01亿",
+    "area": "100万平方公里",
+    "famousAnimal": {
+      "name": "尼罗鳄",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/NileCrocodile.jpg/1280px-NileCrocodile.jpg",
+      "description": "尼罗鳄是埃及的标志性动物，在古埃及文化中具有重要地位"
+    },
+    "currency": {
+      "name": "埃及镑",
+      "code": "EGP",
+      "symbol": "£",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/EGP_200_Pounds_2020_O.jpg/1280px-EGP_200_Pounds_2020_O.jpg",
+      "description": "埃及镑是埃及的法定货币"
+    }
+  },
+  "NGA": {
+    "name": "尼日利亚",
+    "flag": {
+      "name": "尼日利亚国旗",
+      "image": "https://flagcdn.com/w640/ng.png",
+      "description": "尼日利亚国旗，绿白绿三色竖条"
+    },
+    "capital": "阿布贾",
+    "population": "2.06亿",
+    "area": "92.3万平方公里",
+    "famousAnimal": {
+      "name": "非洲鹰",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833549464771%29.jpg/1280px-African_fish_eagle%2C_Haliaeetus_vocifer%2C_at_Chobe_National_Park%2C_Botswana_%2833549464771%29.jpg",
+      "description": "非洲鹰是尼日利亚的国鸟，象征着力量和自由"
+    },
+    "currency": {
+      "name": "尼日利亚奈拉",
+      "code": "NGN",
+      "symbol": "₦",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nigerian_Naira_notes.jpg/1280px-Nigerian_Naira_notes.jpg",
+      "description": "尼日利亚奈拉是尼日利亚的法定货币"
+    }
+  },
+  "THA": {
+    "name": "泰国",
+    "flag": {
+      "name": "泰国国旗",
+      "image": "https://flagcdn.com/w640/th.png",
+      "description": "泰国国旗，红白蓝五色横条"
+    },
+    "capital": "曼谷",
+    "population": "6900万",
+    "area": "51.3万平方公里",
+    "famousAnimal": {
+      "name": "白象",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/White_elephant_Naungdawgyi.jpg/1280px-White_elephant_Naungdawgyi.jpg",
+      "description": "白象是泰国的国兽，在泰国文化中具有神圣地位"
+    },
+    "currency": {
+      "name": "泰铢",
+      "code": "THB",
+      "symbol": "฿",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Thai_baht_banknotes.jpg/1280px-Thai_baht_banknotes.jpg",
+      "description": "泰铢是泰国的法定货币"
+    }
+  },
+  "PAK": {
+    "name": "巴基斯坦",
+    "flag": {
+      "name": "巴基斯坦国旗",
+      "image": "https://flagcdn.com/w640/pk.png",
+      "description": "巴基斯坦国旗，绿底上有白色新月和五角星"
+    },
+    "capital": "伊斯兰堡",
+    "population": "2.18亿",
+    "area": "79.6万平方公里",
+    "famousAnimal": {
+      "name": "雪豹",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Snowleopard_face.jpg/1280px-Snowleopard_face.jpg",
+      "description": "雪豹是巴基斯坦的国兽，生活在喀喇昆仑山脉"
+    },
+    "currency": {
+      "name": "巴基斯坦卢比",
+      "code": "PKR",
+      "symbol": "₨",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pakistani_Rupee_notes.png/1280px-Pakistani_Rupee_notes.png",
+      "description": "巴基斯坦卢比是巴基斯坦的法定货币"
+    }
+  }
+}

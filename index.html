@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界地图探索</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <style>
+        #map-container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+        
+        #info-panel {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            width: 300px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            display: none;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        #close-button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            border: none;
+            background: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .image-container {
+            width: 100%;
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            width: 60%;
+        }
+        
+        .info-row {
+            margin: 5px 0;
+        }
+        
+        .info-label {
+            font-weight: bold;
+        }
+        
+        .section {
+            margin: 20px 0;
+        }
+        
+        .section h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container"></div>
+    <div id="info-panel">
+        <button id="close-button">×</button>
+        
+        <!-- 国旗 -->
+        <div class="image-container">
+            <img class="flag" src="" alt="Country flag">
+        </div>
+        
+        <h2 id="country-name"></h2>
+        
+        <div class="info-row">
+            <span class="info-label">首都：</span>
+            <span id="capital"></span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">人口：</span>
+            <span id="population"></span>
+        </div>
+        <div class="info-row">
+            <span class="info-label">面积：</span>
+            <span id="area"></span>
+        </div>
+        
+        <!-- 纸币部分 -->
+        <div class="section">
+            <h3>流通货币</h3>
+            <div class="image-container">
+                <img class="currency-image" src="" alt="Currency">
+            </div>
+            <p class="currency-description"></p>
+        </div>
+        
+        <!-- 动物部分 -->
+        <div class="section">
+            <h3>代表动物</h3>
+            <div class="image-container">
+                <img class="animal-image" src="" alt="Animal">
+            </div>
+            <p class="animal-description"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
