@@ -1,16 +1,30 @@
-MIT License
+Copyright (c) 2024 Kai Kang
 
-Copyright (c) 2025 [Your Name]
+Personal Use License / 个人使用许可证
+
+[English Version]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), for
+personal, non-commercial use only, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Personal Use
+   - You may use, copy, and modify the Software for personal, non-commercial purposes.
+   - You may not use the Software for any commercial purposes without obtaining
+     a separate commercial license from the copyright holder.
+
+2. Commercial Use
+   - Commercial use of the Software requires a separate written agreement and
+     license fee payment to the copyright holder.
+   - Contact the copyright holder for commercial licensing options.
+
+3. Redistribution
+   - You may not distribute, sublicense, or sell copies of the Software without
+     explicit permission from the copyright holder.
+
+4. Attribution
+   - You must retain this copyright notice and license in all copies or
+     substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +33,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[中文版本]
+
+特此授予任何获得本软件及相关文档文件（"软件"）副本的个人免费许可，
+仅用于个人非商业用途，但须遵守以下条件：
+
+1. 个人使用
+   - 您可以出于个人非商业目的使用、复制和修改本软件。
+   - 未获得版权所有者的单独商业许可，不得将本软件用于任何商业目的。
+
+2. 商业使用
+   - 本软件的商业使用需要与版权所有者签订单独的书面协议并支付许可费用。
+   - 请联系版权所有者获取商业许可选项。
+
+3. 再分发
+   - 未经版权所有者明确许可，不得分发、再许可或销售本软件的副本。
+
+4. 署名要求
+   - 您必须在本软件的所有副本或主要部分中保留本版权声明和许可证。
+
+本软件按"原样"提供，不提供任何明示或暗示的保证，包括但不限于适销性、
+特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对
+任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权行为或其他方面，
+均与本软件或本软件的使用或其他交易有关。
+
+商业许可咨询，请联系：
+康凯 (herokangkai@gmail.com)
